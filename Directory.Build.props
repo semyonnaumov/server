@@ -50,6 +50,8 @@
       NuGet: https://www.nuget.org/packages/AutoFixture.AutoNSubstitute
     -->
     <AutoFixtureAutoNSubstituteVersion>4.18.1</AutoFixtureAutoNSubstituteVersion>
+
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
   </PropertyGroup>
 
   <!--
