@@ -16,6 +16,6 @@ jobs:
       with:
         dotnet-version: 8.x
     - name: Restore project
-      run: dotnet restore --locked-mode
+      run: dotnet restore --locked-mode bitwarden-server.sln
     - name: Build project
       run: dotnet build
