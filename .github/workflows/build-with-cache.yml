@@ -16,6 +16,7 @@ jobs:
       with:
         dotnet-version: 8.x
         cache: true
+        cache-dependency-path: src/Core/packages.lock.json
     - name: Restore project
       run: dotnet restore --locked-mode bitwarden-server.sln
     - name: Build project
